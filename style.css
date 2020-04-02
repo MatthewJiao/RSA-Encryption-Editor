@@ -1,0 +1,142 @@
+.box{
+	height: 100px;
+	outline: solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 1rem;
+	width: 50%;
+	font-family: 'Courier New', sans-serif;
+	background-color: #c3dadb;
+}
+
+.shift h1{
+	font-size: 15px;
+	font-family: 'Courier New', sans-serif;
+
+}
+
+
+
+input[type="text"] {
+	width: 50%;
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 5px;
+	margin-left: 1rem;
+
+	outline: none;
+	color: #000000;
+	padding: 1rem 2rem;
+	border-radius: .5rem;
+	font-family: 'Courier New', sans-serif;
+	border-color: #000000;
+	background-color: #cef2e3
+	}
+
+.shift{
+	margin-left: 1rem;
+
+
+}
+
+.title{
+	margin-left: 1rem;
+	font-family: 'Courier New', sans-serif;
+
+}
+
+.sharp{
+		border-radius: .5rem;
+	border-color: #000000;
+}
+
+#e{
+	font-family: 'Courier New', sans-serif;
+	width: 15rem;
+	background-color: #cef2e3
+	
+}
+
+#n1{
+	font-family: 'Courier New', sans-serif;
+	width: 15rem;
+	background-color: #cef2e3
+
+
+}
+
+#d{
+	font-family: 'Courier New', sans-serif;
+	width: 15rem;
+	background-color: #cef2e3
+
+
+}
+
+#n{
+	font-family: 'Courier New', sans-serif;
+	width: 15rem;
+	background-color: #cef2e3
+
+
+}
+
+#button1{
+	background-color: #c1e3d3 ;
+	cursor: pointer;
+	font-family: 'Courier New', sans-serif;
+	border-color: #ffffff;
+}
+
+#button2{
+	background-color: #e3d1c1 ;
+	cursor: pointer;
+	font-family: 'Courier New', sans-serif;
+	border-color: #ffffff;
+}
+
+.compute{
+	position: absolute;
+	right: 10%;
+	top: 18%;
+
+}
+
+
+.box2{
+	height: 1rem;
+	padding: 1rem;
+	outline: solid;
+	margin-top: 0.5rem;
+	width: 15rem;
+	font-family: 'Courier New', sans-serif;
+	background-color: #c3dadb;
+}
+
+
+#button3{
+	background-color: #cfcfcf;
+	cursor: pointer;
+	font-family: 'Courier New', sans-serif;
+	border-color: #ffffff;
+}
+
+
+.copy{
+	width: 100%;
+	font-size: 11px;
+	text-align: center;
+	color: #000000;
+	background-color: transparent;
+	padding: 0.3rem 0;
+	position:fixed;bottom:0;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.copy:hover,
+.copy:focus{
+	color: #696868;
+	transition: background-color 1000ms;
+
+
+}

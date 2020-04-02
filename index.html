@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RSA Encryption</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body style="background-color:#becfc8">
+	<header>
+		<div class="title">
+			<h1>RSA Encryption Algorithm Editor</h1>
+		</div>
+	</header>
+	<div class="shift">
+		<h1>ENCRYPTION</h1>
+		<input id="e" placeholder="Enter public key (e)">
+		<input id="n1" placeholder="Enter public key (n)">
+		<button id="button1" onclick="fn1()">Encrypt</button>
+	</div>
+	<div class="message">
+		<input id="message1" placeholder="Enter message to ENCRYPT" type="text">
+	</div>
+	<div class="box">
+		<div class="text1">
+			
+		</div>
+	</div>
+
+	<div class="shift">
+		<h1>DECRYPTION</h1>
+		<input id="d" placeholder="Enter private key (d)">
+		<input id="n" placeholder="Enter public key (n)">
+		<button id="button2" onclick="fn2()">Decrypt</button>
+	</div>
+	<div class="message">
+		<input id="message2" placeholder="Enter message to DECRYPT" type="text">
+	</div>
+	<div class="box">
+		<div class="text2">
+			
+		</div>
+	</div>
+
+	<div class="compute">
+		<button id="button3" onclick="keys()">Compute New Keys</button>
+
+			<div class="box2">
+				<div class="text3">
+			
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="copyright">
+			<a class = "copy" style="text-decoration:none" href="http://matthewjiao.rf.gd/">Developed by Matthew Jiao 2020</a> 		
+	</footer>
+	
+
+
+<script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
